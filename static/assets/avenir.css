@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('/assets/AvenirNextLTPro-Bold.woff2') format('woff2'),
+      url('/assets/AvenirNextLTPro-Bold.woff') format('woff'),
+      url('/assets/AvenirNextLTPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('/assets/AvenirNextLTPro-Medium.woff2') format('woff2'),
+      url('/assets/AvenirNextLTPro-Medium.woff') format('woff'),
+      url('/assets/AvenirNextLTPro-Medium.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('/assets/AvenirNextLTPro-Thin.woff2') format('woff2'),
+      url('/assets/AvenirNextLTPro-Thin.woff') format('woff'),
+      url('/assets/AvenirNextLTPro-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
