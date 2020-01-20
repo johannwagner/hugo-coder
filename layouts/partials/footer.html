@@ -1,8 +1,6 @@
 <footer class="footer">
   <section class="container">
-    {{ with .Site.Params.footercontent | safeHTML }}
-      <p>{{.}}</p>
-    {{ end }}
+    <p>{{ .Site.Params.phoneNumber}} - {{ .Site.Params.mailAddress }}</p>
     {{ if not .Site.Params.hideCopyright }}
       {{ with .Site.Params.since }}
         © {{ if lt . now.Year }}{{ . }} - {{ end }}{{ now.Year }}

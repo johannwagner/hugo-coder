@@ -59,7 +59,7 @@
 }
 
 .avatar img{
-  width: 20rem;
+  width: 15rem;
   height: auto;
   border-radius: 50%;
   @media only screen and (max-width : 768px) {
@@ -101,24 +101,56 @@
   }
 }
 
+.about-wrapper {
+
+  text-align: center;
+  width: 100%;
+
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center;
+
+  @media only screen and (max-width : 768px) {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    grid-gap: 4em;
+  }
+
+  .about-company {
+    .img-container {
+      height: 100px;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  h6 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-transform: none;
+  }
+  h3 {
+    margin-top: 2.0rem;
+    margin-bottom: 0.5rem;
+  }
+  h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+    @media only screen and (max-width : 768px) {
+      font-size: 1.4rem;
+    }
+  }
+}
+
 .centered {
   display: flex;
   align-items: center;
   justify-content: center;
   .about {
-    text-align: center;
-    h1 {
-      margin-top: 2.0rem;
-      margin-bottom: 0.5rem;
-    }
-    h2 {
-      margin-top: 1.0rem;
-      margin-bottom: 0.5rem;
-      font-size: 2.4rem;
-      @media only screen and (max-width : 768px) {
-        font-size: 2.0rem;
-      }
-    }
+
     ul {
       list-style: none;
       margin: 3.0rem 0 1.0rem 0;
